@@ -20,7 +20,6 @@ var formSubmitHandler = function(event) {
     alert('Please enter a GitHub username');
   }
 };
-
 var getUserRepos = function(user) {
   // format the github api url
   var apiUrl = 'https://api.github.com/users/' + user + '/repos';
